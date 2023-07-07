@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">
-        <circle cx="150" cy="100" r="50" fill="red"/>
-        <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="green">
-        bal
+        <rect x="110" y="60" width="80" height="80" fill="green"/>
+        <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="30" fill="orange">
+        sev
         </text>
       </svg>
-      

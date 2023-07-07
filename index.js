@@ -6,7 +6,7 @@ inquirer
 .prompt([
     {
         type: 'input',
-        message: 'Text of your SVG (Must be 1-3 characters.)',
+        message: 'Text of your SVG (Must be 1-3 characters.)\n',
         validate: input => {
            if (input.length > 0 && input.length <= 3) {
             return true
@@ -18,7 +18,7 @@ inquirer
     },
     {
         type: 'input',
-        message: 'What color do you want the text to be? (Can be a color keyword, like "blue", or a hex.)',
+        message: 'What color do you want the text to be? (Can be a color keyword, like "blue", or a hex.)\n',
         name: 'textcolor',
         validate: input => {
             if (input.length > 0) {
@@ -30,13 +30,13 @@ inquirer
     },
     {
         type: 'list',
-        message: 'What shape do you want your logo to be?',
+        message: 'What shape do you want your logo to be?\n',
         choices: ['Triangle', 'Circle', 'Square'],
         name: 'shape'
     },
     {
        type: 'input',
-        message: 'What color do you want the shape to be? (Can be a color keyword, like "blue", or a hex.)',
+        message: 'What color do you want the shape to be? (Can be a color keyword, like "blue", or a hex.)\n',
         name: 'color',
         validate: input => {
             if (input.length > 0) {

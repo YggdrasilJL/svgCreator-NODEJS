@@ -1,7 +1,10 @@
 const inquirer = require('inquirer')
 const fs = require('fs')
 const {Shape, Triangle, Square, Circle} = require('./lib/shapes.js')
-
+const currentDate = new Date()
+const seconds = currentDate.getSeconds()
+const minutes = currentDate.getMinutes()
+const hour = currentDate.getHours()
 inquirer
 .prompt([
     {
@@ -63,7 +66,7 @@ inquirer
             break
     }
     const svgContent = shape.renderShape()
-    fs.writeFile('logo.svg', svgContent, err => {
+    fs.writeFile(`examples/logo${hour}-${minutes}-${seconds}.svg`, svgContent, err => {
         err ? console.error('Oops! An error occurred,', err) : console.info('Generated logo.svg!')
     })
 })

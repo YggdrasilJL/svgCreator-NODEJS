@@ -15,6 +15,9 @@ To generate your very own svg logo do the following:
 
       node index.js
 
+## Screenshot
+![logo and terminal](examples/screenshot.png)
+
 ## Walkthrough Video
 
 [Here](https://clipchamp.com/watch/ImCfchECRLc) is a walkthrough video going through the prompts and jest testing.

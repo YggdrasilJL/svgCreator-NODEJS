@@ -4,7 +4,7 @@ This is a command line application that generates a SVG file with the logo based
 
 ## Usage
 
-To generate your very own logo do the following:
+To generate your very own svg logo do the following:
 
 - Clone repository
 - Install the required packages using:
@@ -17,7 +17,7 @@ To generate your very own logo do the following:
 
 ## Walkthrough Video
 
-[Here]() is a walkthrough video going through the prompts and jest testing.
+[Here](https://clipchamp.com/watch/ImCfchECRLc) is a walkthrough video going through the prompts and jest testing.
 
 ## Technologies used
 

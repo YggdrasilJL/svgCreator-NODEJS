@@ -62,7 +62,7 @@ inquirer
             shape = new Circle(data.text, data.color, data.textcolor)
             break
     }
-    const svgContent = shape.svgString
+    const svgContent = shape.renderShape()
     fs.writeFile('logo.svg', svgContent, err => {
         err ? console.error('Oops! An error occurred,', err) : console.info('Generated logo.svg!')
     })
